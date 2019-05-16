@@ -1,27 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- bootstrap css -->
+  <link rel="icon" type="img/deqo.jpg" href="img/deqo.jpg">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- main css -->
-  <link rel="stylesheet" href="css/offroad.css">
-
-  <!-- font awesome -->
+  <link rel="stylesheet" href="css/appliances.css">
   <link rel="stylesheet" href="css/all.css">
-  <title>OFF-ROAD</title>
-  <style>
-  </style>
+  <title>Appliances</title>
 </head>
-
 <body>
-  <!-- header -->
   <header>
     <nav class="navbar navbar-expand-lg px-4">
-      <a class="navbar-brand" href="#"><img class="logo" src="img/deqo.jpg" alt=""></a>
+      <a class="navbar-brand" href="index.html"><img src="img/deqo.jpg" id ="logo" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
         <span class="toggler-icon"><i class="fas fa-bars"></i></span>
       </button>
@@ -31,415 +23,296 @@
             <a class="nav-link" href="index.html">home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="">appliances</a>
+            <a class="nav-link " href="accessories.html">Electronics</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="accessories.html">electronics</a>
+            <a class="nav-link" href="clothes.html">Clothes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="clothes.html">clothes</a>
+            <a class="nav-link" href="appliances.html">Appliances</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Automobiles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
           </li>
         </ul>
-        <div class="nav-info-items d-none d-lg-flex ">
-          <!-- single info -->
-          <!-- <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
-            <span class="info-icon mx-lg-3"><i class="fas fa-phone"></i></span>
-            <p class="mb-0">+254712345678</p>
-          </div> -->
-          <!-- end of single info -->
-          <!-- single info -->
           <div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
             <span class="cart-info__icon mr-lg-3"><i class="fas fa-shopping-cart"></i></span>
             <p class="mb-0 text-capitalize"><span id="item-count">0</span> items - $<span class="item-total">0</span></p>
           </div>
-          <!-- end of single info -->
         </div>
       </div>
     </nav>
-    <!-- end of nav -->
-    <!-- banner  -->
     <div class="container-fluid">
       <div class="row max-height justify-content-center align-items-center">
         <div class="col-10 mx-auto banner text-center">
-          <h1 class="text-capitalize">OFF-ROAD <strong class="banner-title ">TIME TO GET MUDDY...</strong></h1>
+          <h1 class="text-capitalize">Kitchen Appliances<strong class="banner-title ">Your Kitchen</strong></h1>
           <a href="#store" class="btn banner-link text-uppercase my-2">explore</a>
-
         </div>
         <div id="cart" class="cart">
-          <!-- cart item -->
           <div class="cart-item d-flex justify-content-between text-capitalize my-3">
             <img src="" class="img-fluid rounded-circle" id="item-img" alt="">
             <div class="item-text">
-
               <p id="cart-item-title" class="font-weight-bold mb-0"></p>
               <span></span>
-              <!-- <span id="cart-item-price" class="cart-item-price" class="mb-0">0</span> -->
             </div>
             <a href="#" id='cart-item-remove' class="cart-item-remove">
               <i class="fas fa-trash"></i>
             </a>
           </div>
-          <!--end of  cart item -->
-          <!-- cart item -->
-          <!-- <div class="cart-item d-flex justify-content-between text-capitalize my-3">
-            <img src="img-cart/doughnut-2.jpeg" class="img-fluid rounded-circle" id="item-img" alt="">
-            <div class="cart-item-text">
-
-              <p id="cart-item-title" class="font-weight-bold mb-0">cart item</p>
-              <span>$</span>
-              <span id="cart-item-price" class="cart-item-price" class="mb-0">10.99</span>
-            </div>
-            <a href="#" id='cart-item-remove' class="cart-item-remove">
-              <i class="fas fa-trash"></i>
-            </a>
-          </div> -->
-          <!--end of  cart item -->
-          <!-- cart total -->
           <div class="cart-total-container d-flex justify-content-around text-capitalize mt-5">
             <h5>total</h5>
             <h5> $ <strong id="cart-total" class="font-weight-bold">0</strong> </h5>
           </div>
-          <!--end cart total -->
-          <!-- cart buttons -->
           <div class="cart-buttons-container mt-3 d-flex justify-content-between">
             <a href="#" id="clear-cart" class="btn btn-outline-secondary btn-black text-uppercase">clear cart</a>
             <a href="#" class="btn btn-outline-secondary text-uppercase btn-pink" >checkout</a id="checkout" .onclick('myFunction')>
           </div>
-          <!--end of  cart buttons -->
-          <!--  -->
         </div>
       </div>
     </div>
-
-
-
-
-    <!--end of  banner  -->
   </header>
-  <!-- header -->
-  <!-- about us -->
   <section class="about py-5" id="about">
     <div class="container">
-
       <div class="row">
         <div class="col-10 mx-auto col-md-6 my-5">
           <h1 class="text-capitalize">about <strong class="banner-title ">us</strong></h1>
-          <p class="my-4 text-muted w-75">Forget about cushy crossovers and luxury pickup trucks. We're here for the toughest, more capable off-road trucks money can buy.</p>
-          <a href="#ex" class="btn btn-outline-secondary btn-black text-uppercase ">explore</a>
-
+          <p class="my-4 text-muted w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aliquam voluptas
+            beatae vitae expedita consectetur nesciunt quia deserunt asperiores facere fuga dicta fugiat corrupti et omnis
+            porro at dolorum! Ad!</p>
         </div>
         <div class="col-10 mx-auto col-md-6 align-self-center my-5">
           <div class="about-img__container">
-            <img src="img/off1.jpg" class="img-fluid" alt="">
+            <img src="img/download.jpeg" class="img-fluid" alt="">
           </div>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- end of about us -->
-
-
-  <!-- store -->
   <section id="store" class="store py-5">
     <div class="container">
-      <!-- section title -->
       <div class="row">
         <div class="col-10 mx-auto col-sm-6 text-center">
           <h1 class="text-capitalize">our <strong class="banner-title ">store</strong></h1>
         </div>
       </div>
-      <!-- end of section title -->
-    </div>
-      <!-- search box -->
-      <div id="ex" class="row">
-
+      <div class="row">
         <div class="col-10 mx-auto col-md-6">
           <form>
             <div class="input-group mb-3">
               <div class="input-group-prepend ">
-                <span class="input-group-text search-box" id="search-icon"><i class="fas fa-search"></i></span>
+                <span class="input-group-text search-box" id="search-icon"><i class="fas fa-search"></i>
+                </span>
               </div>
-              <input type="text" class="form-control" placeholder='item....' id="search-item">
+              <input type="text" class="form-control" placeholder="I'm shopping for..." id="search-item">
             </div>
-
           </form>
         </div>
       </div>
-      <!--end of filter buttons -->
-      <!-- store  items-->
+      <div id="myDiv">
       <div class="row" class="store-items" id="store-items">
-        <!-- single item -->
         <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
           <div class="card ">
             <div class="img-container">
-              <img id="1" src="img/ford1.jpg" class="card-img-top store-img" alt="">
+              <img src="img/mixer.jpg" class="card-img-top store-img" alt="">
               <span class="store-item-icon">
                 <i class="fas fa-shopping-cart"></i>
               </span>
             </div>
             <div class="card-body">
               <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Ford Raptor Mustang</h5>
-                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">75999</strong></h5>
-
+                <h5 id="store-item-name">Mixer</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">255</strong></h5>
               </div>
             </div>
-
-
           </div>
-          <!-- end of card-->
         </div>
-        <!--end of single store item-->
-        <!-- single item -->
         <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cupcakes" data-item="cupcakes">
           <div class="card ">
             <div class="img-container">
-              <img src="img/f150.jpg" class="card-img-top store-img" alt="">
+              <img src="img/iron.jpg" class="card-img-top store-img" alt="">
               <span class="store-item-icon">
                 <i class="fas fa-shopping-cart"></i>
               </span>
             </div>
             <div class="card-body">
               <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Ford F-150</h5>
-                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">49999</strong></h5>
-
+                <h5 id="store-item-name">Iron Box</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">250</strong></h5>
               </div>
             </div>
-
-
           </div>
-          <!-- end of card-->
         </div>
-        <!--end of single store item-->
-        <!-- single item -->
         <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cakes" data-item="cakes">
-          <div class="card ">
+          <div class="card">
             <div class="img-container">
-              <img src="img/tundra1.jpg" class="card-img-top store-img" alt="">
+              <img src="img/stove.jpg" class="card-img-top store-img" alt="">
               <span class="store-item-icon">
                 <i class="fas fa-shopping-cart"></i>
               </span>
             </div>
             <div class="card-body">
               <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Toyota Tundra</h5>
-                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">54999</strong></h5>
-
+                <h5 id="store-item-name">Stove</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">250</strong></h5>
               </div>
             </div>
-
-
           </div>
-          <!-- end of card-->
         </div>
-        <!--end of single store item-->
-        <!-- single item -->
         <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item doughnuts" data-item="dougnuts">
           <div class="card ">
             <div class="img-container">
-              <img id="2" src="img/jeep1.jpg" class="card-img-top store-img" alt="">
+              <img src="img/heater.jpg" class="card-img-top store-img" alt="">
               <span class="store-item-icon">
                 <i class="fas fa-shopping-cart"></i>
               </span>
             </div>
             <div class="card-body">
               <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Jeep Wrangler</h5>
-                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">54999</strong></h5>
-
+                <h5 id="store-item-name">Water Heater</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">400</strong></h5>
               </div>
             </div>
-
-
           </div>
-          <!-- end of card-->
         </div>
-        <!--end of single store item-->
-        <!-- single item -->
         <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
           <div class="card ">
             <div class="img-container">
-              <img src="img/range1.jpg" class="card-img-top store-img" alt="">
+              <img src="img/oven.jpg" class="card-img-top store-img" alt="">
               <span class="store-item-icon">
                 <i class="fas fa-shopping-cart"></i>
               </span>
             </div>
             <div class="card-body">
               <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Range Rover</h5>
-                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">34999</strong></h5>
-
+                <h5 id="store-item-name">Oven</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">200</strong></h5>
               </div>
             </div>
-
-
           </div>
-          <!-- end of card-->
         </div>
-        <!--end of single store item-->
-        <!-- single item -->
         <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cupcakes" data-item="cupcakes">
           <div class="card ">
             <div class="img-container">
-              <img src="img/rover1.jpg" class="card-img-top store-img" alt="">
+              <img src="img/microwave.jpg" class="card-img-top store-img" alt="">
               <span class="store-item-icon">
                 <i class="fas fa-shopping-cart"></i>
               </span>
             </div>
             <div class="card-body">
               <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Land Rover</h5>
-                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">34999</strong></h5>
-
+                <h5 id="store-item-name">Microwave</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">105</strong></h5>
               </div>
             </div>
-
-
           </div>
-          <!-- end of card-->
         </div>
-        <!--end of single store item-->
-        <!-- single item -->
         <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cakes" data-item="cakes">
           <div class="card ">
             <div class="img-container">
-              <img id="3" src="img/ram1.jpg" class="card-img-top store-img" alt="">
+              <img src="img/water-dispenser.jpg" class="card-img-top store-img" alt="">
               <span class="store-item-icon">
                 <i class="fas fa-shopping-cart"></i>
               </span>
             </div>
             <div class="card-body">
               <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">RAM 2500</h5>
-                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">49999</strong></h5>
-
+                <h5 id="store-item-name">Water Dispenser</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">145</strong></h5>
               </div>
+              <h4 id="key"><u>Key Features</u></h4>
+              <h4>Hot & cold water dispenser<br>Compressor cooling with 16L Fridge<br>2 Faucets<br>Silicon Pipes</h4>
             </div>
-
-
           </div>
-          <!-- end of card-->
         </div>
-        <!--end of single store item-->
-        <!-- single item -->
         <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item doughnuts" data-item="dougnuts">
           <div class="card ">
             <div class="img-container">
-              <img src="img/land1.jpg" class="card-img-top store-img" alt="">
+              <img src="img/cooker.jpg" class="card-img-top store-img" alt="">
               <span class="store-item-icon">
                 <i class="fas fa-shopping-cart"></i>
               </span>
             </div>
             <div class="card-body">
               <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">2017 Toyota 70 Series GXL Wagon</h5>
-                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">69999</strong></h5>
-
+                <h5 id="store-item-name">Pressure Cooker</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">150</strong></h5>
               </div>
+                <h4 id="key"><u>Key Features</u></h4>
+                <h4>Explosion-proof aluminum pressure cooker with high-grade polished finishing<br>Capacity:9L<br>Diameter:26cm<br>Thickness:2.3mm</h4>
             </div>
-
-
           </div>
-          <!-- end of card-->
         </div>
-        <!--end of single store item-->
-        <!-- single item -->
         <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
           <div class="card ">
             <div class="img-container">
-              <img src="img/patrol1.jpg" class="card-img-top store-img" alt="">
+              <img src="img/rice.jpg" class="card-img-top store-img" alt="">
               <span class="store-item-icon">
                 <i class="fas fa-shopping-cart"></i>
               </span>
             </div>
             <div class="card-body">
               <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Nissan Patrol V8</h5>
-                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">74999</strong></h5>
-
+                <h5 id="store-item-name">Rice Cooker</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">155</strong></h5>
               </div>
+                <h4 id="key"><u>Key Features</u></h4>
+                <h4>Materials of main body:  Tin plate<br>Capacity:1.8 Litres<br>Detachable power cord for convenient storage<br>Wattage:  650</h4>
             </div>
-
-
           </div>
-          <!-- end of card-->
         </div>
-        <!--end of single store item-->
-        <!-- single item -->
         <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cupcakes" data-item="cupcakes">
           <div class="card ">
             <div class="img-container">
-              <img id="4" src="img/merc1.jpg" class="card-img-top store-img" alt="">
+              <img src="img/food.jpg" class="card-img-top store-img" alt="">
               <span class="store-item-icon">
                 <i class="fas fa-shopping-cart"></i>
               </span>
             </div>
             <div class="card-body">
               <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Mercedes-Benz G-Class 4x4</h5>
-                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">154999</strong></h5>
-
+                <h5 id="store-item-name">Food Processor</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">300</strong></h5>
               </div>
             </div>
-
-
           </div>
-          <!-- end of card-->
         </div>
-        <!--end of single store item-->
-        <!-- single item -->
         <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cakes" data-item="cakes">
           <div class="card ">
             <div class="img-container">
-              <img src="img/gmc1.jpg" class="card-img-top store-img" alt="">
+              <img src="img/vaccum.jpg" class="card-img-top store-img" alt="">
               <span class="store-item-icon">
                 <i class="fas fa-shopping-cart"></i>
               </span>
             </div>
             <div class="card-body">
               <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">2018 GMC Canyon Denali Rough Country Off-Road Edition</h5>
-                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">69999</strong></h5>
-
+                <h5 id="store-item-name">Vacuum Cleaner</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">1500</strong></h5>
               </div>
             </div>
-
-
           </div>
-          <!-- end of card-->
         </div>
-        <!--end of single store item-->
-        <!-- single item -->
         <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item doughnuts" data-item="dougnuts">
           <div class="card ">
             <div class="img-container">
-              <img src="img/chevy1.jpg" class="card-img-top store-img" alt="">
+              <img src="img/fan.jpg" class="card-img-top store-img" alt="">
               <span class="store-item-icon">
                 <i class="fas fa-shopping-cart"></i>
               </span>
             </div>
             <div class="card-body">
               <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">2018 HOLDEN COLORADO Z71 Crew Cab Pickup 4x4</h5>
-                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">75999</strong></h5>
-
+                <h5 id="store-item-name">Wall Fan</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">150</strong></h5>
               </div>
             </div>
-
-
           </div>
-          <!-- end of card-->
         </div>
-        <!--end of single store item-->
-
       </div>
   </section>
-  <!--end of store items -->
-
-
-  <!-- modal-container -->
   <div class="container-fluid ">
     <div class="row lightbox-container align-items-center">
       <div class="col-10 col-md-10 mx-auto text-right lightbox-holder">
@@ -448,17 +321,11 @@
         <span class="lightbox-control btnLeft"><i class="fas fa-caret-left"></i></span>
         <span class="lightbox-control btnRight"><i class="fas fa-caret-right"></i></span>
       </div>
-
     </div>
   </div>
-
-
-  <!-- jquery -->
+</div>
   <script src="js/jquery-3.3.1.min.js"></script>
-  <!-- bootstrap js -->
   <script src="js/bootstrap.bundle.min.js"></script>
-  <!-- script js -->
-  <script src="js/offroad.js"></script>
+  <script src="js/app.js"></script>
 </body>
-
 </html>
