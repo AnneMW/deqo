@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/accessories.css">
+  <link rel="stylesheet" href="css/all.css">
+  <title>details</title>
+  <style>
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg px-4">
+      <a class="navbar-brand" href="accessories.html"><img src="img/deqo.jpg" alt="" id="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
+        <span class="toggler-icon"><i class="fas fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNav">
+        <ul class="navbar-nav mx-auto text-capitalize">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="accessories.html">Accessories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cables.html">Cables</a>
+          </li>
+        </ul>
+        <div class="nav-info-items d-none d-lg-flex ">
+
+          <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
+            <span class="info-icon mx-lg-3"><i class="fas fa-phone"></i></span>
+          </div>
+
+          <div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
+            <span class="cart-info__icon mr-lg-3"><i class="fas fa-shopping-cart"></i></span>
+            <p class="mb-0 text-capitalize"><span id="item-count">0</span> items - $<span class="item-total">0</span></p>
+          </div>
+
+        </div>
+      </div>
+    </nav <div class="container-fluid">
+    <div class="row max1-height justify-content-center align-items-center">
+      <div class="col-10 mx-auto banner text-center">
+        <h1 class="text-capitalize">switches<strong class="banner-title ">scale your network</strong></h1>
+        <a href="#store" class="btn banner-link text-uppercase my-2">explore</a>
+      </div>
+      <div id="cart" class="cart">
+        <div class="cart-item d-flex justify-content-between text-capitalize my-3">
+          <img src="" class="img-fluid rounded-circle" id="item-img" alt="">
+          <div class="item-text">
+
+            <p id="cart-item-title" class="font-weight-bold mb-0"></p>
+            <span></span>
+          </div>
+          <a href="#" id='cart-item-remove' class="cart-item-remove">
+            <i class="fas fa-trash"></i>
+          </a>
+        </div>
+
+        <div class="cart-total-container d-flex justify-content-around text-capitalize mt-5">
+          <h5>total</h5>
+          <h5> $ <strong id="cart-total" class="font-weight-bold">0</strong> </h5>
+        </div>
+
+        <div class="cart-buttons-container mt-3 d-flex justify-content-between">
+          <a href="#" id="clear-cart" class="btn btn-outline-secondary btn-black text-uppercase">clear cart</a>
+          <a href="#" class="btn btn-outline-secondary text-uppercase btn-pink">checkout</a id="checkout" .onclick('myFunction')>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </header>
+  <section id="store" class="store py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 mx-auto col-sm-6 text-center">
+          <h1 class="text-capitalize">our <strong class="banner-title ">Ethernet switches</strong></h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class=" col-lg-8 mx-auto d-flex justify-content-around my-2 sortBtn flex-wrap">
+          <a href="#row" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2" data-filter="all"> all</a>
+        </div>
+      </div>
+      <div class="row" id="row">
+
+        <div class="col-10 mx-auto col-md-6">
+          <form>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend ">
+                <span class="input-group-text search-box" id="search-icon"><i class="fas fa-search"></i></span>
+              </div>
+              <input type="text" class="form-control" placeholder='item....' id="search-item">
+            </div>
+
+          </form>
+        </div>
+      </div>
+      <div class="row" class="store-items" id="store-items">
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card ">
+            <div class="img-container">
+              <figure>
+                <img src="images/sc300.jpg" class="card-img-top store-img" alt="">
+                <figcaption>Both 24 and 48 port POE is available using 802.3af class 3 with 370 Watt power capacity.
+                  Dual-purpose uplinks for Gigabit Ethernet uplink flexibility, allowing use of either a copper or a fiber uplink.
+                  A dual-purpose uplink port has one 10/100/1000 Ethernet port and one Small Form-Factor Pluggable (SFP)-based
+                  Gigabit Ethernet port, with one port active at a time</figcaption>
+              </figure>
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Cisco Catalyst 2960-24TT-L V02 </h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">23</strong></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cupcakes" data-item="cupcakes" id="switch">
+          <div class="card ">
+            <div class="img-container">
+              <figure>
+                <img src="images/switch2.png" class="card-img-top store-img" alt="">
+                <figcaption>The DGS-1008P is an 8 port Gigabit Desktop switch with 4 PoE ports. It provides a cost-effective
+                  way for SOHO and SMB to benefit from the Power over Ethernet technology by allowing users to power up devices
+                  such as wireless Access Points, network cameras or IP phones directly from the network cables. Its fanless
+                  design makes it completely silent so it is ideal for offices, libraries or meeting rooms.</figcaption>
+              </figure>
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">DGS-1008P</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">78</strong></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cakes" data-item="cakes">
+          <div class="card ">
+            <div class="img-container">
+              <figure>
+                <img src="images/switch3.jpg" class="card-img-top store-img" alt="">
+                <figcaption>Is the next generation of enterprise-class standalone and
+                  stackable access-layer switches that provide the foundation for full convergence between wired and wireless
+                  on a single platform. The 3650 Series is built on the advanced Cisco StackWise®-160, and takes advantage of
+                  the new Cisco Unified Access™ Data Plane (UADP) application-specific integrated circuit (ASIC).</figcaption>
+              </figure>
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Cisco Catalyst 3650-24PD-S </h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">250</strong></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item doughnuts" data-item="dougnuts">
+          <div class="card ">
+            <div class="img-container">
+              <figure>
+                <img src="images/switch4.jpg" class="card-img-top store-img" alt="">
+                <figcaption> provides capabilities that ideally suited to support the convergence of wired and wireless access.
+                  The new Cisco Unified Access Data™ Plane (UADP) (ASIC) powers the switch and enables uniform wired-wireless
+                  policy enforcement, application visibility, flexibility, and application optimization.</figcaption>
+              </figure>
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Cisco Catalyst 3650-48FD-S </h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">400</strong></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card ">
+            <div class="img-container">
+              <figure>
+                <img src="images/switch5.jpg" class="card-img-top store-img" alt="">
+                <figcaption>The Extralink Euros PoE Switch can automatically detect and supply power to IEEE 802.3af compliant devices. It has 4 10/100 Mbps
+                  Auto-Negotiation RJ45 ports with PoE out. A compact and cheap switch to power access points and cameras. </figcaption>
+              </figure>
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Extralink Euros 4-Port 10/100Mbps Unmanaged PoE </h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">45</strong></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cupcakes" data-item="cupcakes" id="tv">
+          <div class="card ">
+            <div class="img-container">
+              <figure>
+                <img src="images/switch6.jpg" class="card-img-top store-img" alt="">
+                <figcaption>The Cloud Router Switch 106-1C-5S is a desktop size smart switch, equipped with one Gigabit
+                  Ethernet / SFP combo port and five 1.25Gbps SFP cages.The package includes a power supply. Powered by a 400MHz
+                  CPU and 128MB RAM, it runs RouterOS with a L5 license and supports 11- 30V power.</figcaption>
+              </figure>
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Mikrotik CRS106-1C-5S</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">80</strong></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+  <div class="container-fluid ">
+    <div class="row lightbox-container align-items-center">
+      <div class="col-10 col-md-10 mx-auto text-right lightbox-holder">
+        <span class="lightbox-close"><i class="fas fa-window-close"></i></span>
+        <div class="lightbox-item"></div>
+        <span class="lightbox-control btnLeft"><i class="fas fa-caret-left"></i></span>
+        <span class="lightbox-control btnRight"><i class="fas fa-caret-right"></i></span>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/accessories.js"></script>
+</body>
+
+</html>
