@@ -61,7 +61,7 @@ body {
 .max-height {
   min-height: calc(100vh - 76px);
   background:
-    url("../img/header1.jpeg") center/cover fixed no-repeat;
+    url("../img/header1.jpg") center/cover fixed no-repeat;
   position: relative;
 }
 .banner {
