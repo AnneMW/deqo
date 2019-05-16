@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>sign up form</title>
+   <link rel="icon" type="image/jpg" href="deqo.jpg">
+   <link href ="css/styles.css" rel="stylesheet" type="text/css">
+   <link href ="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="container">
+    <form>
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <label for="lname">Email</label>
+      <input type="email" id="lname" name="lastname" placeholder="email..">
+      <label for="lname">Password</label>
+      <input type="password" id="lname" name="lastname" placeholder="Your password..">
+      <label for="county">County</label>
+      <select id="county" name="county">
+        <option value="australia">Nairobi</option>
+      </select>
+      <label for="city">City</label>
+      <select id="city" name="city">
+        <option >CBD/Town Only</option>
+        <option >Dagorreti South</option>
+        <option >Roysambu</option>
+        <option >westlands</option>
+      </select>
+      <label for="subject">Please be more specific</label>
+      <textarea id="subject" name="subject" placeholder="directions to your residence .." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit"onclick="openpayment()">
+
+    </form>
+  </div>
+</body>
+<script src="js/script.js"></script>
+</html>
