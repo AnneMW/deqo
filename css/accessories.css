@@ -67,14 +67,14 @@ body {
 .max1-height {
   min-height: calc(100vh - 76px);
   background:
-    url("../images/switches.jpg") center/cover fixed no-repeat;
+    url("../img/nswitch.png") center/cover fixed no-repeat;
   position: relative;
 }
 
 .max2-height {
   min-height: calc(100vh - 76px);
   background:
-    url("../images/lan1.png") center/cover fixed no-repeat;
+    url("../img/ncable.png") center/cover fixed no-repeat;
   position: relative;
 }
 
