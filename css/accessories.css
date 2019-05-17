@@ -74,7 +74,7 @@ body {
 .max2-height {
   min-height: calc(100vh - 76px);
   background:
-    url("../img/ncable.png") center/cover fixed no-repeat;
+    url("../img/cable1.jpg") center/cover fixed no-repeat;
   position: relative;
 }
 
